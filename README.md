@@ -12,9 +12,10 @@ Run VGG16 pre-trained model using Ruby and Numo::NArray
   - Ruby/Tk + Plotchart is required
 
 ## External data
-I get weights from this chainer model using "numpy.ndarray.tofile" manually
+I get weights and biases from this chainer model using "numpy.ndarray.tofile" manually.
+
 [chainer-imagenet-vgg](https://github.com/mitmul/chainer-imagenet-vgg)
-Don't forget convert chainer variable to numpy or cupy using "x.data"
+
 The original caffemodel is provided [here](https://gist.github.com/ksimonyan/211839e770f7b538e2d8#file-readme-md).
 
 ## Run
