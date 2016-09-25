@@ -25,6 +25,7 @@ Show Tk Window
 ```
 $ ruby predict.rb -d [png_image_file_path]
 ```
+![screenshot](https://raw.githubusercontent.com/kojix2/narray-vgg16/images/vggcat.png)
 
 Sample outputs:
 ```
