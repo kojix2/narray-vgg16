@@ -1,6 +1,8 @@
 # narray-vgg16
 
 VGG-16 is a famous image classification model.
+Run VGG16 pre-trained model using Ruby and Numo::NArray
+![screenshot](https://raw.githubusercontent.com/kojix2/narray-vgg16/images/vggcat.png)
 
 ## Requirements
 - Ruby
@@ -25,7 +27,6 @@ Show Tk Window
 ```
 $ ruby predict.rb -d [png_image_file_path]
 ```
-![screenshot](https://raw.githubusercontent.com/kojix2/narray-vgg16/images/vggcat.png)
 
 Sample outputs:
 ```
