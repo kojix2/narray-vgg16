@@ -8,7 +8,7 @@ N = Numo::SFloat
 
 tk = false
 OptionParser.new do |opt|
-  opt.on('-d', '--display', 'Show Ruby/Tk GUI Window'){t = true}
+  opt.on('-d', '--display', 'Show Tk GUI Window'){tk = true}
   opt.parse!(ARGV)
 end
 raise "No image error" if ARGV[0].nil?
